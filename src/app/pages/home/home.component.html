@@ -1,0 +1,350 @@
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../../../assets/img/logo.png" style="width: 40px;" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <hr class="hr my-3 d-block d-lg-none">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ul-menu">
+          <li class="nav-item">
+            <a class="nav-link" href="/home#inicio">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/home#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/home#habilidades">Conhecimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/home#projeto">Projeto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/home#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- PARTE INÍCIO -->
+<div class="container" id="inicio">
+    <div class="row justify-content-center mt-5">
+
+        <div class="col-2 col-lg-1 text-center c-primary pt-5">
+            <div class="w-100 mt-4">
+                <a href="https://www.linkedin.com/in/renatha-oliveira-202300236/" target="_blank" rel="noopener noreferrer">
+                    <img class="rede-social" src="../../../assets/img/linkedin.png" width="24px" alt="">
+                </a>
+            </div>
+
+            <div class="w-100 my-3">
+                <a href="https://github.com/HeyRenatha" target="_blank">
+                    <img class="rede-social" src="../../../assets/img/github.png" width="24px" alt="">
+                </a>
+            </div>
+
+            <div class="w-100">
+                <a href="https://wa.me/5515997137253?text=Ol%C3%A1+Renatha%2C+peguei+seu+contato+atrav%C3%A9s+do+seu+portf%C3%B3lio.+Gostaria+de+conversar." target="_blank" rel="noopener noreferrer">
+                    <img class="rede-social" src="../../../assets/img/whats-app.png" width="24px" alt="">
+                </a>
+            </div>
+        </div>
+
+        <!-- MOBILE -->
+        <div class="col-10 col-lg-3 d-block d-md-none text-center">
+            <img src="../../../assets/img/profile.png" width="90%" alt="">
+        </div>
+        <!-- IPAD -->
+        <div class="col-10 col-lg-3 d-none d-md-block d-lg-none text-center">
+            <img src="../../../assets/img/profile.png" width="60%" alt="">
+        </div>
+
+        <div class="col-11 col-lg-4">
+
+            <h1 class="titulo-inicio">Olá, eu sou a Renatha Oliveira</h1>
+            <h4 class="subtitulo-inicio">Desenvolvedora Front-End</h4>
+
+            <p class="paragrafo-inicio">Focada no desenvolvimento de telas com bases em UX/UI, desde a criação das telas, até
+                a integração do sistema por meio de API's.
+            </p>
+
+            <a href="../../../assets/Renatha-curriculo-.pdf" download>
+                <button class="botao">Currículo <i class="material-icons download">download</i></button>
+            </a>
+        </div>
+        <!-- DESKTOP -->
+        <div class="col-11 col-lg-3 d-none d-lg-block">
+            <img src="../../../assets/img/profile.png" width="100%" alt="">
+        </div>
+    </div>
+</div>
+
+<!-- PARTE SOBRE -->
+<div class="container bg-main" id="sobre">
+    <div class="row justify-content-center">
+
+        <div class="col-12">
+            <h3 class="titulo-home-reverse text-center">Sobre Mim</h3>
+            <h3 class="subtitulo-home-reverse text-center">Conheça mais um pouco sobre mim</h3>
+        </div>
+
+
+        <div class="col-12 col-lg-3">
+            <img src="../../../assets/img/sobre-1.png" class="d-none d-lg-block" width="100%" alt="">
+            <img src="../../../assets/img/sobre-1.png" class="d-block d-lg-none mx-auto" width="40%" alt="">
+        </div>
+
+        <div class="col-12 col-lg-5">
+            <p class="paragrafo-home-reverse mt-5 mt-lg-2 text-left">Sou Desenvolvedora Front-End apaixonada por desenvolvimento de 
+                interfaces voltadas para a usabilidade e experiência que pode ser proporcionada ao usuário.
+            </p>
+
+            <div class="row px-0 mt-5">
+                <div class="col-3">
+                    <p class="quantidade-sobre">23</p>
+                    <p class="nomenclatura-sobre">Idade</p>
+                </div>
+
+                <div class="col-3">
+                    <p class="quantidade-sobre">10 +</p>
+                    <p class="nomenclatura-sobre">Cursos</p>
+                </div>
+
+                <div class="col-3">
+                    <p class="quantidade-sobre">5 +</p>
+                    <p class="nomenclatura-sobre">Projetos</p>
+                </div>
+
+                <div class="col-3">
+                    <p class="quantidade-sobre">8 +</p>
+                    <p class="nomenclatura-sobre">Tecnologias</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- PARTE HABILIDADES -->
+<div class="container" id="habilidades">
+    <div class="row justify-content-center">
+
+        <div class="col-12">
+            <h3 class="titulo-home text-center">Conhecimentos</h3>
+            <h3 class="subtitulo-home text-center">Conheça um pouco das minhas principais habilidades</h3>
+        </div>
+
+        <!-- FRONTEND -->
+        <div class="col-12  col-lg-3 my-3">
+            <div class="card hover" (click)="openCloseSkills('frontend')">
+                <p class="habilidade-classe">
+                    <i class="material-icons icone-habilidade">code</i>
+                    Desenvolvimento
+                    <i class="material-icons icone-seta" *ngIf="!frontend">expand_more</i>
+                    <i class="material-icons icone-seta" *ngIf="frontend">expand_less</i>
+                </p>
+                <p class="habilidade-quantidade">5 principais</p>
+
+                <div class="skills" *ngIf="frontend">
+                    <label>HTML - 90%</label>
+                    <div class="container-porcentagem">
+                        <div class="porcentagem" [style.width.%]="90"></div>
+                    </div>
+
+                    <label>CSS/SCSS - 90%</label>
+                    <div class="container-porcentagem">
+                        <div class="porcentagem" [style.width.%]="90"></div>
+                    </div>
+
+                    <label>Bootstrap - 90%</label>
+                    <div class="container-porcentagem">
+                        <div class="porcentagem" [style.width.%]="90"></div>
+                    </div>
+
+                    <label>Javacript/Typescript - 60%</label>
+                    <div class="container-porcentagem">
+                        <div class="porcentagem" [style.width.%]="60"></div>
+                    </div>
+
+                    <label>Angular - 40%</label>
+                    <div class="container-porcentagem">
+                        <div class="porcentagem" [style.width.%]="40"></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- DESIGN -->
+        <div class="col-12  col-lg-3 my-3">
+            <div class="card hover" (click)="openCloseSkills('design')">
+                <p class="habilidade-classe">
+                    <i class="material-icons icone-habilidade">brush</i>
+                    UX Designer
+                    <i class="material-icons icone-seta" *ngIf="!design">expand_more</i>
+                    <i class="material-icons icone-seta" *ngIf="design">expand_less</i>
+                </p>
+                <p class="habilidade-quantidade">4 principais</p>
+
+                <div class="skills" *ngIf="design">
+                    <label>UX/UI design - 70%</label>
+                    <div class="container-porcentagem">
+                        <div class="porcentagem" [style.width.%]="70"></div>
+                    </div>
+
+                    <label>Figma - 80%</label>
+                    <div class="container-porcentagem">
+                        <div class="porcentagem" [style.width.%]="80"></div>
+                    </div>
+
+                    <label>Adobe XD - 60%</label>
+                    <div class="container-porcentagem">
+                        <div class="porcentagem" [style.width.%]="60"></div>
+                    </div>
+
+                    <label>Photoshop - 60%</label>
+                    <div class="container-porcentagem">
+                        <div class="porcentagem" [style.width.%]="60"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONCEPTS -->
+        <div class="col-12  col-lg-3 my-3">
+            <div class="card hover" (click)="openCloseSkills('concept')">
+                <p class="habilidade-classe">
+                    <i class="material-icons icone-habilidade">psychology</i>
+                    Conceitos
+                    <i class="material-icons icone-seta" *ngIf="!concept">expand_more</i>
+                    <i class="material-icons icone-seta" *ngIf="concept">expand_less</i>
+                </p>
+                <p class="habilidade-quantidade">4 principais</p>
+                
+                <div class="skills" *ngIf="concept">
+                    <label>Github - 70%</label>
+                    <div class="container-porcentagem">
+                        <div class="porcentagem" [style.width.%]="70"></div>
+                    </div>
+
+                    <label>Jira - 70%</label>
+                    <div class="container-porcentagem">
+                        <div class="porcentagem" [style.width.%]="70"></div>
+                    </div>
+
+                    <label>Prototipagem - 70%</label>
+                    <div class="container-porcentagem">
+                        <div class="porcentagem" [style.width.%]="70"></div>
+                    </div>
+
+                    <label>Teste de qualidade - QA - 60%</label>
+                    <div class="container-porcentagem">
+                        <div class="porcentagem" [style.width.%]="60"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- PORTFOLIO PROJETO PESSOAL -->
+<div class="container" id="projeto">
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <h3 class="titulo-home text-center">Projeto Pessoal</h3>
+            <h3 class="subtitulo-home text-center">Conheça um pouco sobre meu projeto</h3>
+        </div>
+
+        <div class="col-12 col-lg-3 text-center mt-3 mb-3">
+            <img src="../../../assets/img/restrifood-1.png" class="d-none d-lg-block restrifood-img" width="100%">
+            <img src="../../../assets/img/restrifood-1.png" class="d-block d-lg-none mx-auto restrifood-img" width="80%">
+        </div>
+
+        <div class="col-12 col-lg-5 mt-3">
+            <p class="paragrafo-inicio">Este projeto se trata de uma plataforma onde o usuário busca por restaurantes 
+                escolhendo uma restrição alimentar específica. Por exemplo um vegetariano que não se alimenta de 
+                carne, pode pesquisar restaurante que forneçam essas opções, assim como um intolerante a glúten, 
+                lactose, etc.
+                <br> <br>
+                Caso queira conhecer um pouco mais sobre o Restrifood visite o link deste projeto:
+                <br>
+                <a href="https://restrifood-25e0f.web.app/" target="_blank">
+                    <button class="botao">Restrifood <i class="material-icons download">arrow_right_alt</i></button>
+                </a>
+            </p>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- PARTE CONTATO -->
+<div class="container" id="contato">
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <h3 class="titulo-home text-center">Contato</h3>
+            <h3 class="subtitulo-home text-center">Estou a disposição para contato por esses meios</h3>
+        </div>
+
+        <div class="col-8 col-lg-5 text-center mt-3 mb-3 d-block d-md-none">
+            <img src="../../../assets/img/contact.svg" class="mx-auto" width="100%" alt="">
+        </div>
+
+        <div class="col-12 col-lg-4 col-xl-3 mt-3">
+            <div>
+                <p class="titulo-contato">Linkedin: <a class="info-contato" href="https://www.linkedin.com/in/renatha-oliveira-202300236/" target="_blank" rel="noopener noreferrer">Renatha Oliveira</a></p>
+            </div>
+
+            <div>
+                <p class="titulo-contato">E-mail: <span class="info-contato">{{email}}</span></p>
+            </div>
+
+            <div>
+                <p class="titulo-contato">Whats-App: <span class="info-contato">(15) 99713-7253</span></p>
+            </div>
+        </div>
+
+        <div class="col-4 col-lg-5 text-center mt-3 d-none d-md-block">
+            <img src="../../../assets/img/contact.svg" class="mx-auto" width="50%" alt="">
+        </div>
+
+    </div>
+</div>
+
+<div class="container bg-main pt-3 pb-1">
+    <div class="row">
+        <div class="col-12 col-md-4">
+            <p class="titulo-home-reverse mt-2">Renatha Oliveira</p>
+            <p class="paragrafo-home-reverse mt-2">Desenvolvedora Front-End</p>
+        </div>
+
+        <div class="col-12 col-md-4 d-none d-md-block"> </div>
+
+        <div class="col-12 col-md-4">
+            <p class="subtitulo-home-reverse mt-2 mb-2">Redes sociais</p>
+
+            <a href="https://www.linkedin.com/in/renatha-oliveira-202300236/" target="_blank" rel="noopener noreferrer">
+                <img class="rede-social-2" src="../../../assets/img/linkedin-2.png" width="24px" alt="">
+            </a>
+
+            <a href="https://github.com/HeyRenatha" target="_blank">
+                <img class="rede-social-2" src="../../../assets/img/github-2.png" width="24px" alt="">
+            </a>
+
+            <a href="https://wa.me/5515997137253?text=Ol%C3%A1+Renatha%2C+peguei+seu+contato+atrav%C3%A9s+do+seu+portf%C3%B3lio.+Gostaria+de+conversar." target="_blank">
+                <img class="rede-social-2" src="../../../assets/img/whats-app-2.png" width="24px" alt="">
+            </a>
+        </div>
+
+        <div class="col-12 mt-3">
+            <p class="paragrafo-home-reverse text-center">© Desenvolvido por: Renatha Oliveira - 2024</p>
+        </div>
+    </div>
+</div>
