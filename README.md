@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/HeyRenatha/portfolio-renatha/master/src/assets/img/restrifood-1.png" width="100%">
+<img style="margin: 0 auto" src="https://raw.githubusercontent.com/HeyRenatha/portfolio-renatha/master/src/assets/img/restrifood-1.png" width="50%">
 
 # PortfolioRenatha
 
